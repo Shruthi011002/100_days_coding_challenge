@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<time.h>
+int main()
+{
+ printf("\n\n\t Study with peace-Best place to learn\n\n");
+ time_t t;
+ time(&t);
+ printf("This programwas written at<Date and Time>:%s",ctime(&t));
+ printf("\n\n\t\t 🥳Coding is fun🥳\n\n");
+ return 0;
+}
